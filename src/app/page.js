@@ -63,14 +63,14 @@ export default function Home() {
                   <p><strong>Tech Stack:</strong> Python, Pandas, OpenPyxl, PyQt</p>
                 </div>
                 <div className="card-footer">
-                  <a
+                  {/* <a
                     href="#contact"
                     // target="_blank"
                     // rel="noopener noreferrer"
                     className="btn btn-primary"
                   >
                     Code Available Upon Request
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
