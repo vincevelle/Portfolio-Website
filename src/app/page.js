@@ -56,7 +56,7 @@ export default function Home() {
             <div className="col-md-6 col-lg-4 mb-4">
               <div className="card h-100">
                 <div className="card-body">
-                  <h5 className="card-title">TIF Report Generator</h5>
+                  <h5 className="card-title">Report Generator</h5>
                   <p className="card-text">
                     Report generating desktop application that reads in an Excel file using Pandas and then writes to a template file based off user configurations.
                   </p>
