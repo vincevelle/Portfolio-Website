@@ -45,52 +45,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* PROJECTS SECTION */}
-      <section id="projects" className="py-5 bg-light">
-        <div className="container">
-          <h2 className="mb-4">Projects</h2>
-          <div className="row">
-            
-            {/* Toxicity Predictor Project */}
-            <div className="col-md-6 col-lg-4 mb-4">
-              <div className="card h-100">
-                <div className="card-body">
-                  <h5 className="card-title">Toxicity Predictor</h5>
-                  <p className="card-text">
-                    A deep learning model using DeepChem’s Graph Convolutional Networks to predict chemical toxicity based on molecular structures.
-                  </p>
-                  <p><strong>Tech Stack:</strong> Python, DeepChem, TensorFlow, RDKit</p>
-                </div>
-                <div className="card-footer">
-                  <a
-                    href="https://github.com/vincevelle/Toxicity-Predictor/tree/main"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="btn btn-primary"
-                  >
-                    View on GitHub
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            {/* Report Generator Project */}
-            <div className="col-md-6 col-lg-4 mb-4">
-              <div className="card h-100">
-                <div className="card-body">
-                  <h5 className="card-title">Report Generator</h5>
-                  <p className="card-text">
-                    Report generating desktop application that reads in an Excel file using Pandas and then writes to a template file based off user configurations.
-                  </p>
-                  <p><strong>Tech Stack:</strong> Python, Pandas, OpenPyxl, PyQt</p>
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </section>
-
 
       {/* EXPERIENCE SECTION */}
       <section id="experience" className="py-5">
@@ -130,7 +84,7 @@ export default function Home() {
                    <strong>Programming Languages:</strong> Python | C++ | C | Java | JavaScript
                  </li>
                  <li>
-                   <strong>Tools & Libraries:</strong> Git | Pandas | SQL |
+                   <strong>Tools & Libraries:</strong> Git | Pandas |
                     Microsoft Office Suite | Tableau
                  </li>
                </ul>
