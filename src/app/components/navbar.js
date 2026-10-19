@@ -7,7 +7,7 @@ export default function NavBar() {
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container">
         <Link href="#" className="navbar-brand">
-          My Portfolio
+          
         </Link>
 
         <button
@@ -29,19 +29,24 @@ export default function NavBar() {
                 About
               </Link>
             </li>
-            {/* <li className="nav-item">
-              <Link href="#projects" className="nav-link">
-                Projects
-              </Link>
-            </li> */}
             <li className="nav-item">
               <Link href="#experience" className="nav-link">
                 Experience
               </Link>
             </li>
             <li className="nav-item">
+              <Link href="#projects" className="nav-link">
+                Projects
+              </Link>
+            </li>
+            <li className="nav-item">
               <Link href="#skills" className="nav-link">
                 Skills
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link href="#coursework" className="nav-link">
+                Coursework
               </Link>
             </li>
             <li className="nav-item">
